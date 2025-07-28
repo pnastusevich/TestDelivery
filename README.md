@@ -5,7 +5,8 @@
 
 ## 📸 Скриншоты
 
-<img src="Screenshots/menu_screen.png" width="300"> <img src="Screenshots/auth_screen.png" width="300">
+<img width="1206" height="2622" alt="auth_screen" src="https://github.com/user-attachments/assets/2b7750c9-b045-4f64-a49a-a378ad89fc0e" />
+<img width="1206" height="2622" alt="menu_screen" src="https://github.com/user-attachments/assets/7cecb049-c16e-4665-8df0-8b3be2e4f479" />
 
 ---
 
