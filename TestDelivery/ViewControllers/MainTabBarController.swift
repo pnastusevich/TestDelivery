@@ -8,7 +8,6 @@ final class MainTabBarController: UITabBarController {
         self.assembly = assembly
         super.init(nibName: nil, bundle: nil)
     }
-    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -20,7 +19,7 @@ final class MainTabBarController: UITabBarController {
     }
     
     private func setupUI() {
-        let firstViewController =  assembly.makeMenuModule()
+        let firstViewController = assembly.makeMenuModule()
         let secondVC = UIViewController()
         let thirdVC = UIViewController()
         let fourthVC = UIViewController()
