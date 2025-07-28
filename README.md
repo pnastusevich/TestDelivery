@@ -5,7 +5,7 @@
 
 ## 📸 Скриншоты
 
-<img width="1206" height="2622" alt="menu_screen" src="https://github.com/user-attachments/assets/7cecb049-c16e-4665-8df0-8b3be2e4f479" />
+<img width="303" height="656" alt="menu_screen" src="https://github.com/user-attachments/assets/7cecb049-c16e-4665-8df0-8b3be2e4f479" />
 
 ---
 
