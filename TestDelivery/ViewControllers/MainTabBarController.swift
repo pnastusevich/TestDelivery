@@ -1,4 +1,3 @@
-
 import UIKit
 
 final class MainTabBarController: UITabBarController {
@@ -21,10 +20,10 @@ final class MainTabBarController: UITabBarController {
     }
     
     private func setupUI() {
-        let firstViewController =  UINavigationController(rootViewController: assembly.makeMenuModule())
-        let secondVC = UINavigationController(rootViewController: UIViewController())
-        let thirdVC = UINavigationController(rootViewController: UIViewController())
-        let fourthVC = UINavigationController(rootViewController: UIViewController())
+        let firstViewController =  assembly.makeMenuModule()
+        let secondVC = UIViewController()
+        let thirdVC = UIViewController()
+        let fourthVC = UIViewController()
 
         firstViewController.tabBarItem = UITabBarItem(title: "Меню", image: UIImage(named: "menu"), tag: 0)
         secondVC.tabBarItem = UITabBarItem(title: "Контакты", image: UIImage(named: "contact"), tag: 1)

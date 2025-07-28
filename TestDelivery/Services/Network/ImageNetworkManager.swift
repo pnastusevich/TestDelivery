@@ -8,7 +8,7 @@ protocol ImageNetworkManagerProtocol {
 final class ImageNetworkManager: ImageNetworkManagerProtocol {
     func fetchImageData(from url: URL, completion: @escaping (Result<Data, NetworkError>) -> Void) {
         URLSession.shared.dataTask(with: url) { data, _, error in
-            if let error = error {
+            if let _ = error {
                 completion(.failure(.errorInServer))
                 return
             }
